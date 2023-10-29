@@ -16,7 +16,7 @@ public class Main {
             System.out.println("1. Power");
             System.out.println("2. nCr");
             System.out.println("3: GCD");
-            System.out.println("69: Exit");
+            System.out.println("99: Exit");
             choice = reader.nextInt();
             if(choice == 1) {
                 System.out.println("You have chosen power function");
