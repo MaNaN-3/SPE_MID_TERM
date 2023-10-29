@@ -11,7 +11,7 @@ public class Main {
         logger.info("A fundamental calculator for exponential, nCr and Greatest Common Divisor");
         System.out.println("Welcome to the calculator app");
         int choice = 0;
-        while(choice != 69){
+        while(choice != 99){
             System.out.println("Please choose the operation you want to perform");
             System.out.println("1. Power");
             System.out.println("2. nCr");
