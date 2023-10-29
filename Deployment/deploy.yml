@@ -6,11 +6,11 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: satvikvm/spe_mini_project:latest
+        name: manan3/calculator:latest
         source: pull
     - name: Start docker container
       service:
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name calculator satvikvm/spe_mini_project
+      shell: docker run -it -d --name calculator manan3/calculator
