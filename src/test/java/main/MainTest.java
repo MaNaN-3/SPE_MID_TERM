@@ -8,7 +8,7 @@ import org.junit.Test;
 public class MainTest {
 
     @Test
-    public void power() {
+    public void test_power() {
         int expectedAnswer = 32;
         int base = 2;
         int power = 5;
@@ -17,7 +17,7 @@ public class MainTest {
     }
 
     @Test
-    public void nCr() {
+    public void test_nCr() {
         int expectedAnswer = 10;
         int n = 5;
         int r = 2;
@@ -26,7 +26,7 @@ public class MainTest {
     }
 
     @Test
-    public void gcd() {
+    public void test_gcd() {
         int expectedAnswer = 5;
         int a = 10;
         int b = 15;
