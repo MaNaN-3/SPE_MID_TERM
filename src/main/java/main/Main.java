@@ -40,7 +40,7 @@ public class Main {
                     System.out.println(answer);
                 }
                 else{
-                    System.out.println("r cannot be greater than n");
+                    System.out.println("r cannot be greater than  n");
                 }
             }
             else if(choice == 3){
@@ -52,7 +52,7 @@ public class Main {
                 System.out.println("GCD of " + a + " and " + b);
                 System.out.println(gcd(a, b));
             }
-            else if(choice == 11){
+            else if(choice == 10){
                 break;
             }
         }
