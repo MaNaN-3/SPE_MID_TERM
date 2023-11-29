@@ -52,8 +52,8 @@ public class Main {
                 System.out.println("GCD of " + a + " and " + b);
                 System.out.println(gcd(a, b));
             }
-            else if(choice == 4){
-
+            else if(choice == 11){
+                break;
             }
         }
     }
