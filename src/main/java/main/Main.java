@@ -11,12 +11,12 @@ public class Main {
         logger.info("A fundamental calculator for exponential, nCr and Greatest Common Divisor");
         System.out.println("Welcome to the calculator app");
         int choice = 0;
-        while(choice != 19){
+        while(choice != 4){
             System.out.println("Please choose the operation you want to perform");
             System.out.println("1. Power");
             System.out.println("2. nCr");
             System.out.println("3: GCD");
-            System.out.println("19: Exit");
+            System.out.println("4: Exit");
             choice = reader.nextInt();
             if(choice == 1) {
                 System.out.println("You have chosen power function");
